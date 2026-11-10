@@ -1,0 +1,145 @@
+"""
+Device inventory — equivalent to Ansible's inventory/host.ini,
+but organized into groups instead of one flat list.
+
+Add or remove devices under the relevant group. Each device entry
+is a dict of connection parameters that gets passed straight into
+Netmiko's ConnectHandler.
+
+To use a specific group in a script:
+    from devices import GROUPS
+    for device in GROUPS["switchback"]:
+        ...
+
+To use every device regardless of group:
+    from devices import all_devices
+    for device in all_devices():
+        ...
+"""
+
+GROUPS = {
+    "switchback": [
+        {
+            "name": "ONYX-SW1-BRR",
+            "device_type": "generic_termserver",
+            "host": "192.168.10.250",
+            "username": "admin",
+            "password": "admin",
+        },
+        {
+            "name": "ONYX-SW2-NW",
+            "device_type": "generic_termserver",
+            "host": "192.168.10.245",
+            "username": "admin",
+            "password": "admin",
+        },
+        {
+            "name": "RUBY-SW1-PAA",
+            "device_type": "generic_termserver",
+            "host": "192.168.10.248",
+            "username": "admin",
+            "password": "admin",
+        },
+        {
+            "name": "RUBY-SW2-REC",
+            "device_type": "generic_termserver",
+            "host": "192.168.10.249",
+            "username": "admin",
+            "password": "admin",
+        },
+        {
+            "name": "RUBY-SW3-APP",
+            "device_type": "generic_termserver",
+            "host": "192.168.10.247",
+            "username": "admin",
+            "password": "admin",
+        },
+        {
+            "name": "RUBY-SW4-APP",
+            "device_type": "generic_termserver",
+            "host": "192.168.10.246",
+            "username": "admin",
+            "password": "admin",
+        },
+        {
+            "name": "DC-SW2-HRP",
+            "device_type": "generic_termserver",
+            "host": "192.168.10.252",
+            "username": "admin",
+            "password": "admin",
+        },
+#        {
+#            "name": "CORE-LAN-SW",
+#            "device_type": "generic_termserver",
+#            "host": "192.168.10.253",
+#            "username": "admin",
+#            "password": "123qwertY!!",
+#        },
+    ],
+
+    "captainhooks": [
+        {
+             "name": "CH-ACC-SW",
+             "device_type": "generic_termserver",
+             "host": "192.168.12.252",
+             "username": "admin",
+             "password": "123qwertY!!",
+        },
+	{
+	     "name": "CH-FF-SW",
+	     "devices_type": "generic_termserver",
+	     "host": "192.168.12.248",
+	     "username": "admin",
+	     "password": "123qwertY!!",
+	},
+	{
+	     "name":"CH-SLO-SW",
+	     "device_type":"generic_termserver",
+	     "host": "192.168.12.251",
+	     "username": "admin",
+	     "password": "123qwertY!!",
+	},
+#	{
+#	     "name": "CH-NEWSTAR-SW",
+#	     "device_type": "generic_termserver",
+#	     "host": "192.168.12.249",
+#	     "username": "admin",
+#	     "password": "123qwertY!!",
+#	},
+    ],
+
+#    "kanda": [
+        # Add kanda devices here
+#    ],
+
+#    "newgas": [
+        # Add newgas devices here
+#    ],
+
+#    "tof": [
+        # Add tof devices here
+#    ],
+
+#    "atuabo": [
+        # Add atuabo devices here
+#    ],
+}
+
+
+#def all_devices():
+     """Return a flat list of every device across all groups."""
+#    devices = []
+#    for group_devices in GROUPS.values():
+#        devices.extend(group_devices)
+#    return devices
+
+
+#def get_group(name):
+     """Return the device list for a given group name (raises KeyError if unknown)."""
+#    return GROUPS[name]
+
+
+# Backwards-compatible alias: some scripts may still `from devices import DEVICES`
+# expecting a flat list of all devices.
+
+#DEVICES = all_devices()

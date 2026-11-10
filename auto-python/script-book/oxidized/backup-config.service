@@ -1,0 +1,8 @@
+[Unit]
+Description=Pull configs from all devices and save to backups/
+
+[Service]
+Type=oneshot
+User=serv
+WorkingDirectory=/home/serv/auto-python/oxidized
+ExecStart=/home/serv/auto-python/auto-venv/bin/python3 /home/serv/auto-python/oxidized/backup_config.py

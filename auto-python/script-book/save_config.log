@@ -1,0 +1,268 @@
+2026-07-21 15:44:13,985  INFO      [DRY RUN] ONYX-SW1-BRR (192.168.10.250) — would run: copy running-config startup-config
+2026-07-21 15:44:13,985  INFO      [DRY RUN] ONYX-SW2-NW (192.168.10.245) — would run: copy running-config startup-config
+2026-07-21 15:44:13,985  INFO      [DRY RUN] RUBY-SW1-PAA (192.168.10.248) — would run: copy running-config startup-config
+2026-07-21 15:44:13,985  INFO      [DRY RUN] RUBY-SW2-REC (192.168.10.249) — would run: copy running-config startup-config
+2026-07-21 15:44:13,985  INFO      [DRY RUN] RUBY-SW3-APP (192.168.10.247) — would run: copy running-config startup-config
+2026-07-21 15:44:13,985  INFO      [DRY RUN] RUBY-SW4-APP (192.168.10.246) — would run: copy running-config startup-config
+2026-07-21 15:44:13,985  INFO      [DRY RUN] DC-SW2-HRP (192.168.10.252) — would run: copy running-config startup-config
+2026-07-21 15:44:23,223  INFO      Connecting to ONYX-SW1-BRR (192.168.10.250)...
+2026-07-21 15:44:23,228  INFO      Connected (version 2.0, client SERVER_1.01)
+2026-07-21 15:44:24,031  INFO      Authentication (password) successful!
+2026-07-21 15:44:24,154  INFO      [ONYX-SW1-BRR] ✅ Connected
+2026-07-21 15:44:28,858  INFO      [ONYX-SW1-BRR] ✅ Config saved
+2026-07-21 15:44:28,859  INFO      Connecting to ONYX-SW2-NW (192.168.10.245)...
+2026-07-21 15:44:28,863  INFO      Connected (version 2.0, client SERVER_1.01)
+2026-07-21 15:44:29,793  INFO      Authentication (password) successful!
+2026-07-21 15:44:29,919  INFO      [ONYX-SW2-NW] ✅ Connected
+2026-07-21 15:44:34,622  INFO      [ONYX-SW2-NW] ✅ Config saved
+2026-07-21 15:44:34,623  INFO      Connecting to RUBY-SW1-PAA (192.168.10.248)...
+2026-07-21 15:44:34,626  INFO      Connected (version 2.0, client SERVER_1.01)
+2026-07-21 15:44:35,546  INFO      Authentication (password) successful!
+2026-07-21 15:44:35,669  INFO      [RUBY-SW1-PAA] ✅ Connected
+2026-07-21 15:44:40,372  INFO      [RUBY-SW1-PAA] ✅ Config saved
+2026-07-21 15:44:40,373  INFO      Connecting to RUBY-SW2-REC (192.168.10.249)...
+2026-07-21 15:44:40,394  INFO      Connected (version 2.0, client SERVER_1.01)
+2026-07-21 15:44:41,261  INFO      Authentication (password) successful!
+2026-07-21 15:44:41,386  INFO      [RUBY-SW2-REC] ✅ Connected
+2026-07-21 15:44:45,989  INFO      [RUBY-SW2-REC] ✅ Config saved
+2026-07-21 15:44:45,989  INFO      Connecting to RUBY-SW3-APP (192.168.10.247)...
+2026-07-21 15:44:45,993  INFO      Connected (version 2.0, client SERVER_1.01)
+2026-07-21 15:44:46,889  INFO      Authentication (password) successful!
+2026-07-21 15:44:47,016  INFO      [RUBY-SW3-APP] ✅ Connected
+2026-07-21 15:44:51,619  INFO      [RUBY-SW3-APP] ✅ Config saved
+2026-07-21 15:44:51,619  INFO      Connecting to RUBY-SW4-APP (192.168.10.246)...
+2026-07-21 15:44:51,640  INFO      Connected (version 2.0, client SERVER_1.01)
+2026-07-21 15:44:52,559  INFO      Authentication (password) successful!
+2026-07-21 15:44:52,682  INFO      [RUBY-SW4-APP] ✅ Connected
+2026-07-21 15:44:57,386  INFO      [RUBY-SW4-APP] ✅ Config saved
+2026-07-21 15:44:57,386  INFO      Connecting to DC-SW2-HRP (192.168.10.252)...
+2026-07-21 15:44:57,390  INFO      Connected (version 2.0, client SERVER_1.01)
+2026-07-21 15:44:58,272  INFO      Authentication (password) successful!
+2026-07-21 15:44:58,403  INFO      [DC-SW2-HRP] ✅ Connected
+2026-07-21 15:45:03,006  INFO      [DC-SW2-HRP] ✅ Config saved
+2026-07-21 16:26:10,347  INFO      Connecting to ONYX-SW1-BRR (192.168.10.250)...
+2026-07-21 16:26:10,370  INFO      Connected (version 2.0, client SERVER_1.01)
+2026-07-21 16:26:11,247  INFO      Authentication (password) successful!
+2026-07-21 16:26:11,373  INFO      [ONYX-SW1-BRR] ✅ Connected
+2026-07-21 16:26:16,078  INFO      [ONYX-SW1-BRR] ✅ Config saved
+2026-07-21 16:26:16,078  INFO      Connecting to ONYX-SW2-NW (192.168.10.245)...
+2026-07-21 16:26:16,082  INFO      Connected (version 2.0, client SERVER_1.01)
+2026-07-21 16:26:16,959  INFO      Authentication (password) successful!
+2026-07-21 16:26:17,084  INFO      [ONYX-SW2-NW] ✅ Connected
+2026-07-21 16:26:21,788  INFO      [ONYX-SW2-NW] ✅ Config saved
+2026-07-21 16:26:21,788  INFO      Connecting to RUBY-SW1-PAA (192.168.10.248)...
+2026-07-21 16:26:21,792  INFO      Connected (version 2.0, client SERVER_1.01)
+2026-07-21 16:26:22,681  INFO      Authentication (password) successful!
+2026-07-21 16:26:22,804  INFO      [RUBY-SW1-PAA] ✅ Connected
+2026-07-21 16:26:27,507  INFO      [RUBY-SW1-PAA] ✅ Config saved
+2026-07-21 16:26:27,507  INFO      Connecting to RUBY-SW2-REC (192.168.10.249)...
+2026-07-21 16:26:27,523  INFO      Connected (version 2.0, client SERVER_1.01)
+2026-07-21 16:26:28,416  INFO      Authentication (password) successful!
+2026-07-21 16:26:28,544  INFO      [RUBY-SW2-REC] ✅ Connected
+2026-07-21 16:26:33,247  INFO      [RUBY-SW2-REC] ✅ Config saved
+2026-07-21 16:26:33,247  INFO      Connecting to RUBY-SW3-APP (192.168.10.247)...
+2026-07-21 16:26:33,251  INFO      Connected (version 2.0, client SERVER_1.01)
+2026-07-21 16:26:34,104  INFO      Authentication (password) successful!
+2026-07-21 16:26:34,224  INFO      [RUBY-SW3-APP] ✅ Connected
+2026-07-21 16:26:38,929  INFO      [RUBY-SW3-APP] ✅ Config saved
+2026-07-21 16:26:38,929  INFO      Connecting to RUBY-SW4-APP (192.168.10.246)...
+2026-07-21 16:26:38,933  INFO      Connected (version 2.0, client SERVER_1.01)
+2026-07-21 16:26:39,792  INFO      Authentication (password) successful!
+2026-07-21 16:26:39,917  INFO      [RUBY-SW4-APP] ✅ Connected
+2026-07-21 16:26:44,620  INFO      [RUBY-SW4-APP] ✅ Config saved
+2026-07-21 16:26:44,620  INFO      Connecting to DC-SW2-HRP (192.168.10.252)...
+2026-07-21 16:26:44,634  INFO      Connected (version 2.0, client SERVER_1.01)
+2026-07-21 16:26:45,505  INFO      Authentication (password) successful!
+2026-07-21 16:26:45,635  INFO      [DC-SW2-HRP] ✅ Connected
+2026-07-21 16:26:50,339  INFO      [DC-SW2-HRP] ✅ Config saved
+2026-07-22 14:09:18,369  INFO      Connecting to ONYX-SW1-BRR (192.168.10.250)...
+2026-07-22 14:09:20,948  ERROR     [ONYX-SW1-BRR] ❌ Timeout
+2026-07-22 14:09:20,949  INFO      Connecting to ONYX-SW2-NW (192.168.10.245)...
+2026-07-22 14:09:24,058  ERROR     [ONYX-SW2-NW] ❌ Timeout
+2026-07-22 14:09:24,059  INFO      Connecting to RUBY-SW1-PAA (192.168.10.248)...
+2026-07-22 14:09:27,179  ERROR     [RUBY-SW1-PAA] ❌ Timeout
+2026-07-22 14:09:27,179  INFO      Connecting to RUBY-SW2-REC (192.168.10.249)...
+2026-07-22 14:09:30,299  ERROR     [RUBY-SW2-REC] ❌ Timeout
+2026-07-22 14:09:30,299  INFO      Connecting to RUBY-SW3-APP (192.168.10.247)...
+2026-07-22 14:09:33,429  ERROR     [RUBY-SW3-APP] ❌ Timeout
+2026-07-23 07:21:33,359  INFO      Connecting to ONYX-SW1-BRR (192.168.10.250)...
+2026-07-23 07:21:33,387  INFO      Connected (version 2.0, client SERVER_1.01)
+2026-07-23 07:21:34,279  INFO      Authentication (password) successful!
+2026-07-23 07:21:34,408  INFO      [ONYX-SW1-BRR] ✅ Connected
+2026-07-23 07:21:39,012  INFO      [ONYX-SW1-BRR] ✅ Config saved
+2026-07-23 07:21:39,012  INFO      Connecting to ONYX-SW2-NW (192.168.10.245)...
+2026-07-23 07:21:39,016  INFO      Connected (version 2.0, client SERVER_1.01)
+2026-07-23 07:21:39,888  INFO      Authentication (password) successful!
+2026-07-23 07:21:40,007  INFO      [ONYX-SW2-NW] ✅ Connected
+2026-07-23 07:21:44,711  INFO      [ONYX-SW2-NW] ✅ Config saved
+2026-07-23 07:21:44,711  INFO      Connecting to RUBY-SW1-PAA (192.168.10.248)...
+2026-07-23 07:21:44,728  INFO      Connected (version 2.0, client SERVER_1.01)
+2026-07-23 07:21:45,604  INFO      Authentication (password) successful!
+2026-07-23 07:21:45,729  INFO      [RUBY-SW1-PAA] ✅ Connected
+2026-07-23 07:21:50,432  INFO      [RUBY-SW1-PAA] ✅ Config saved
+2026-07-23 07:21:50,432  INFO      Connecting to RUBY-SW2-REC (192.168.10.249)...
+2026-07-23 07:21:50,447  INFO      Connected (version 2.0, client SERVER_1.01)
+2026-07-23 07:21:51,331  INFO      Authentication (password) successful!
+2026-07-23 07:21:51,459  INFO      [RUBY-SW2-REC] ✅ Connected
+2026-07-23 07:21:56,163  INFO      [RUBY-SW2-REC] ✅ Config saved
+2026-07-23 07:21:56,163  INFO      Connecting to RUBY-SW3-APP (192.168.10.247)...
+2026-07-23 07:21:56,168  INFO      Connected (version 2.0, client SERVER_1.01)
+2026-07-23 07:21:57,046  INFO      Authentication (password) successful!
+2026-07-23 07:21:57,183  INFO      [RUBY-SW3-APP] ✅ Connected
+2026-07-23 07:22:01,786  INFO      [RUBY-SW3-APP] ✅ Config saved
+2026-07-23 07:22:01,786  INFO      Connecting to RUBY-SW4-APP (192.168.10.246)...
+2026-07-23 07:22:01,809  INFO      Connected (version 2.0, client SERVER_1.01)
+2026-07-23 07:22:02,642  INFO      Authentication (password) successful!
+2026-07-23 07:22:02,761  INFO      [RUBY-SW4-APP] ✅ Connected
+2026-07-23 07:22:07,464  INFO      [RUBY-SW4-APP] ✅ Config saved
+2026-07-23 07:22:07,464  INFO      Connecting to DC-SW2-HRP (192.168.10.252)...
+2026-07-23 07:22:07,468  INFO      Connected (version 2.0, client SERVER_1.01)
+2026-07-23 07:22:08,342  INFO      Authentication (password) successful!
+2026-07-23 07:22:08,469  INFO      [DC-SW2-HRP] ✅ Connected
+2026-07-23 07:22:13,172  INFO      [DC-SW2-HRP] ✅ Config saved
+2026-07-23 14:40:12,841  INFO      Connecting to ONYX-SW1-BRR (192.168.10.250)...
+2026-07-23 14:40:12,867  INFO      Connected (version 2.0, client SERVER_1.01)
+2026-07-23 14:40:13,735  INFO      Authentication (password) successful!
+2026-07-23 14:40:13,862  INFO      [ONYX-SW1-BRR] ✅ Connected
+2026-07-23 14:40:18,566  INFO      [ONYX-SW1-BRR] ✅ Config saved
+2026-07-23 14:40:18,566  INFO      Connecting to ONYX-SW2-NW (192.168.10.245)...
+2026-07-23 14:40:18,570  INFO      Connected (version 2.0, client SERVER_1.01)
+2026-07-23 14:40:19,465  INFO      Authentication (password) successful!
+2026-07-23 14:40:19,585  INFO      [ONYX-SW2-NW] ✅ Connected
+2026-07-23 14:40:24,289  INFO      [ONYX-SW2-NW] ✅ Config saved
+2026-07-23 14:40:24,289  INFO      Connecting to RUBY-SW1-PAA (192.168.10.248)...
+2026-07-23 14:40:24,292  INFO      Connected (version 2.0, client SERVER_1.01)
+2026-07-23 14:40:25,180  INFO      Authentication (password) successful!
+2026-07-23 14:40:25,318  INFO      [RUBY-SW1-PAA] ✅ Connected
+2026-07-23 14:40:30,021  INFO      [RUBY-SW1-PAA] ✅ Config saved
+2026-07-23 14:40:30,021  INFO      Connecting to RUBY-SW2-REC (192.168.10.249)...
+2026-07-23 14:40:30,031  INFO      Connected (version 2.0, client SERVER_1.01)
+2026-07-23 14:40:30,921  INFO      Authentication (password) successful!
+2026-07-23 14:40:31,046  INFO      [RUBY-SW2-REC] ✅ Connected
+2026-07-23 14:40:35,750  INFO      [RUBY-SW2-REC] ✅ Config saved
+2026-07-23 14:40:35,750  INFO      Connecting to RUBY-SW3-APP (192.168.10.247)...
+2026-07-23 14:40:35,754  INFO      Connected (version 2.0, client SERVER_1.01)
+2026-07-23 14:40:36,654  INFO      Authentication (password) successful!
+2026-07-23 14:40:36,804  INFO      [RUBY-SW3-APP] ✅ Connected
+2026-07-23 14:40:41,507  INFO      [RUBY-SW3-APP] ✅ Config saved
+2026-07-23 14:40:41,508  INFO      Connecting to RUBY-SW4-APP (192.168.10.246)...
+2026-07-23 14:40:41,511  INFO      Connected (version 2.0, client SERVER_1.01)
+2026-07-23 14:40:42,382  INFO      Authentication (password) successful!
+2026-07-23 14:40:42,509  INFO      [RUBY-SW4-APP] ✅ Connected
+2026-07-23 14:40:47,112  INFO      [RUBY-SW4-APP] ✅ Config saved
+2026-07-23 14:40:47,112  INFO      Connecting to DC-SW2-HRP (192.168.10.252)...
+2026-07-23 14:40:47,116  INFO      Connected (version 2.0, client SERVER_1.01)
+2026-07-23 14:40:48,032  INFO      Authentication (password) successful!
+2026-07-23 14:40:48,151  INFO      [DC-SW2-HRP] ✅ Connected
+2026-07-23 14:40:52,854  INFO      [DC-SW2-HRP] ✅ Config saved
+2026-08-05 15:13:32,107  INFO      Connecting to ONYX-SW1-BRR (192.168.10.250)...
+2026-08-05 15:13:32,128  INFO      Connected (version 2.0, client SERVER_1.01)
+2026-08-05 15:13:32,980  INFO      Authentication (password) successful!
+2026-08-05 15:13:33,107  INFO      [ONYX-SW1-BRR] ✅ Connected
+2026-08-05 15:13:37,811  INFO      [ONYX-SW1-BRR] ✅ Config saved
+2026-08-05 15:13:37,811  INFO      Connecting to ONYX-SW2-NW (192.168.10.245)...
+2026-08-05 15:13:37,826  INFO      Connected (version 2.0, client SERVER_1.01)
+2026-08-05 15:13:38,745  INFO      Authentication (password) successful!
+2026-08-05 15:13:38,874  INFO      [ONYX-SW2-NW] ✅ Connected
+2026-08-05 15:13:43,578  INFO      [ONYX-SW2-NW] ✅ Config saved
+2026-08-05 15:13:43,578  INFO      Connecting to RUBY-SW1-PAA (192.168.10.248)...
+2026-08-05 15:13:43,582  INFO      Connected (version 2.0, client SERVER_1.01)
+2026-08-05 15:13:44,476  INFO      Authentication (password) successful!
+2026-08-05 15:13:44,599  INFO      [RUBY-SW1-PAA] ✅ Connected
+2026-08-05 15:13:49,303  INFO      [RUBY-SW1-PAA] ✅ Config saved
+2026-08-05 15:13:49,304  INFO      Connecting to RUBY-SW2-REC (192.168.10.249)...
+2026-08-05 15:13:49,307  INFO      Connected (version 2.0, client SERVER_1.01)
+2026-08-05 15:13:50,232  INFO      Authentication (password) successful!
+2026-08-05 15:13:50,360  INFO      [RUBY-SW2-REC] ✅ Connected
+2026-08-05 15:13:55,165  INFO      [RUBY-SW2-REC] ✅ Config saved
+2026-08-05 15:13:55,165  INFO      Connecting to RUBY-SW3-APP (192.168.10.247)...
+2026-08-05 15:13:55,169  INFO      Connected (version 2.0, client SERVER_1.01)
+2026-08-05 15:13:56,102  INFO      Authentication (password) successful!
+2026-08-05 15:13:56,240  INFO      [RUBY-SW3-APP] ✅ Connected
+2026-08-05 15:14:00,943  INFO      [RUBY-SW3-APP] ✅ Config saved
+2026-08-05 15:14:00,943  INFO      Connecting to RUBY-SW4-APP (192.168.10.246)...
+2026-08-05 15:14:00,974  INFO      Connected (version 2.0, client SERVER_1.01)
+2026-08-05 15:14:01,921  INFO      Authentication (password) successful!
+2026-08-05 15:14:02,045  INFO      [RUBY-SW4-APP] ✅ Connected
+2026-08-05 15:14:06,749  INFO      [RUBY-SW4-APP] ✅ Config saved
+2026-08-05 15:14:06,749  INFO      Connecting to DC-SW2-HRP (192.168.10.252)...
+2026-08-05 15:14:06,753  INFO      Connected (version 2.0, client SERVER_1.01)
+2026-08-05 15:14:07,657  INFO      Authentication (password) successful!
+2026-08-05 15:14:07,779  INFO      [DC-SW2-HRP] ✅ Connected
+2026-08-05 15:14:12,483  INFO      [DC-SW2-HRP] ✅ Config saved
+2026-08-05 15:14:12,483  INFO      Connecting to CORE-LAN-SW (192.168.10.253)...
+2026-08-05 15:14:22,492  ERROR     [CORE-LAN-SW] ❌ Timeout
+2026-08-06 14:55:43,381  INFO      Connecting to ONYX-SW1-BRR (192.168.10.250)...
+2026-08-06 14:55:43,388  INFO      Connected (version 2.0, client SERVER_1.01)
+2026-08-06 14:55:44,261  INFO      Authentication (password) successful!
+2026-08-06 14:55:44,386  INFO      [ONYX-SW1-BRR] ✅ Connected
+2026-08-06 14:55:49,091  INFO      [ONYX-SW1-BRR] ✅ Config saved
+2026-08-06 14:55:49,092  INFO      Connecting to ONYX-SW2-NW (192.168.10.245)...
+2026-08-06 14:55:49,096  INFO      Connected (version 2.0, client SERVER_1.01)
+2026-08-06 14:55:49,969  INFO      Authentication (password) successful!
+2026-08-06 14:55:50,093  INFO      [ONYX-SW2-NW] ✅ Connected
+2026-08-06 14:55:54,800  INFO      [ONYX-SW2-NW] ✅ Config saved
+2026-08-06 14:55:54,800  INFO      Connecting to RUBY-SW1-PAA (192.168.10.248)...
+2026-08-06 14:55:54,805  INFO      Connected (version 2.0, client SERVER_1.01)
+2026-08-06 14:55:55,779  INFO      Authentication (password) successful!
+2026-08-06 14:55:55,901  INFO      [RUBY-SW1-PAA] ✅ Connected
+2026-08-06 14:56:00,505  INFO      [RUBY-SW1-PAA] ✅ Config saved
+2026-08-06 14:56:00,505  INFO      Connecting to RUBY-SW2-REC (192.168.10.249)...
+2026-08-06 14:56:00,510  INFO      Connected (version 2.0, client SERVER_1.01)
+2026-08-06 14:56:01,447  INFO      Authentication (password) successful!
+2026-08-06 14:56:01,576  INFO      [RUBY-SW2-REC] ✅ Connected
+2026-08-06 14:56:06,280  INFO      [RUBY-SW2-REC] ✅ Config saved
+2026-08-06 14:56:06,281  INFO      Connecting to RUBY-SW3-APP (192.168.10.247)...
+2026-08-06 14:56:06,285  INFO      Connected (version 2.0, client SERVER_1.01)
+2026-08-06 14:56:07,128  INFO      Authentication (password) successful!
+2026-08-06 14:56:07,266  INFO      [RUBY-SW3-APP] ✅ Connected
+2026-08-06 14:56:11,971  INFO      [RUBY-SW3-APP] ✅ Config saved
+2026-08-06 14:56:11,971  INFO      Connecting to RUBY-SW4-APP (192.168.10.246)...
+2026-08-06 14:56:11,975  INFO      Connected (version 2.0, client SERVER_1.01)
+2026-08-06 14:56:12,869  INFO      Authentication (password) successful!
+2026-08-06 14:56:13,001  INFO      [RUBY-SW4-APP] ✅ Connected
+2026-08-06 14:56:17,706  INFO      [RUBY-SW4-APP] ✅ Config saved
+2026-08-06 14:56:17,706  INFO      Connecting to DC-SW2-HRP (192.168.10.252)...
+2026-08-06 14:56:17,711  INFO      Connected (version 2.0, client SERVER_1.01)
+2026-08-06 14:56:18,555  INFO      Authentication (password) successful!
+2026-08-06 14:56:18,677  INFO      [DC-SW2-HRP] ✅ Connected
+2026-08-06 14:56:23,381  INFO      [DC-SW2-HRP] ✅ Config saved
+2026-08-06 14:56:23,381  INFO      Connecting to CORE-LAN-SW (192.168.10.253)...
+2026-08-06 14:56:33,392  ERROR     [CORE-LAN-SW] ❌ Timeout
+2026-08-17 10:39:13,751  INFO      Connecting to ONYX-SW1-BRR (192.168.10.250)...
+2026-08-17 10:39:13,764  INFO      Connected (version 2.0, client SERVER_1.01)
+2026-08-17 10:39:14,628  INFO      Authentication (password) successful!
+2026-08-17 10:39:14,788  INFO      [ONYX-SW1-BRR] ✅ Connected
+2026-08-17 10:39:19,493  INFO      [ONYX-SW1-BRR] ✅ Config saved
+2026-08-17 10:39:19,494  INFO      Connecting to ONYX-SW2-NW (192.168.10.245)...
+2026-08-17 10:39:19,498  INFO      Connected (version 2.0, client SERVER_1.01)
+2026-08-17 10:39:20,381  INFO      Authentication (password) successful!
+2026-08-17 10:39:20,508  INFO      [ONYX-SW2-NW] ✅ Connected
+2026-08-17 10:39:25,213  INFO      [ONYX-SW2-NW] ✅ Config saved
+2026-08-17 10:39:25,213  INFO      Connecting to RUBY-SW1-PAA (192.168.10.248)...
+2026-08-17 10:39:25,219  INFO      Connected (version 2.0, client SERVER_1.01)
+2026-08-17 10:39:26,129  INFO      Authentication (password) successful!
+2026-08-17 10:39:26,255  INFO      [RUBY-SW1-PAA] ✅ Connected
+2026-08-17 10:39:30,959  INFO      [RUBY-SW1-PAA] ✅ Config saved
+2026-08-17 10:39:30,960  INFO      Connecting to RUBY-SW2-REC (192.168.10.249)...
+2026-08-17 10:39:30,964  INFO      Connected (version 2.0, client SERVER_1.01)
+2026-08-17 10:39:31,858  INFO      Authentication (password) successful!
+2026-08-17 10:39:32,013  INFO      [RUBY-SW2-REC] ✅ Connected
+2026-08-17 10:39:36,718  INFO      [RUBY-SW2-REC] ✅ Config saved
+2026-08-17 10:39:36,718  INFO      Connecting to RUBY-SW3-APP (192.168.10.247)...
+2026-08-17 10:39:36,725  INFO      Connected (version 2.0, client SERVER_1.01)
+2026-08-17 10:39:37,586  INFO      Authentication (password) successful!
+2026-08-17 10:39:37,714  INFO      [RUBY-SW3-APP] ✅ Connected
+2026-08-17 10:39:42,419  INFO      [RUBY-SW3-APP] ✅ Config saved
+2026-08-17 10:39:42,419  INFO      Connecting to RUBY-SW4-APP (192.168.10.246)...
+2026-08-17 10:39:42,425  INFO      Connected (version 2.0, client SERVER_1.01)
+2026-08-17 10:39:43,292  INFO      Authentication (password) successful!
+2026-08-17 10:39:43,419  INFO      [RUBY-SW4-APP] ✅ Connected
+2026-08-17 10:39:48,124  INFO      [RUBY-SW4-APP] ✅ Config saved
+2026-08-17 10:39:48,124  INFO      Connecting to DC-SW2-HRP (192.168.10.252)...
+2026-08-17 10:39:48,129  INFO      Connected (version 2.0, client SERVER_1.01)
+2026-08-17 10:39:48,986  INFO      Authentication (password) successful!
+2026-08-17 10:39:49,115  INFO      [DC-SW2-HRP] ✅ Connected
+2026-08-17 10:39:53,819  INFO      [DC-SW2-HRP] ✅ Config saved
+2026-08-17 10:39:53,819  INFO      Connecting to CORE-LAN-SW (192.168.10.253)...
+2026-08-17 10:40:03,829  ERROR     [CORE-LAN-SW] ❌ Timeout

@@ -1,0 +1,29 @@
+#!/usr/bin/env python3
+"""
+Compare the two most recent config backups for each device and report
+any differences.
+ 
+Reads from the same backups/<group>/<name>_<timestamp>.cfg tree that
+backup_config.py already writes to — no new inventory or connection
+needed, this just diffs files that are already on disk.
+ 
+Diff reports are written to ./changes/<group>/<name>_<timestamp>.diff
+and a running changelog.log is appended to for a quick audit trail.
+ 
+Usage:
+    python detect_changes.py
+    python detect_changes.py --group switchback
+    python detect_changes.py --switch RUBY-SW1-PAA
+    python detect_changes.py --alert-on-change     # exit code 2 if any changes found
+"""
+import os
+import re
+import sys
+import argparse
+import difflib
+from datatime import datetime
+from collections import dafaultdict
+
+BACKUP_DIR
+CHANGE_DIR
+CHANGELOG

@@ -1,0 +1,14 @@
+[Unit]
+Description=Oxidized-compatible API for LibreNMS integration
+After=network.target
+
+[Service]
+Type=simple
+User=serv
+WorkingDirectory=/home/serv/auto-python/oxidized
+ExecStart=/home/serv/auto-python/auto-venv/bin/python3 /home/serv/auto-python/oxidized/oxidized_api.py
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
